@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick Quiz</title>
+    <title>High Scores</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/highscore.css">
 </head>
 <body>
     <div class="container">
-        <div id="home" class="flex-center flex-column">
-            <h1>Quick Quiz</h1>
-            <a href="/game.html" class="btn">Play</a>
-            <a href="/highscore.html" class="btn">Highscore</a>
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="finalScore">High Scores</h1>
+            <ul id="highScoresList"></ul>
+            <a href="/" class="btn">Go Home</a>
         </div>
     </div>
+
+    <script src="./js/highscore.js"></script>
 </body>
 </html>
